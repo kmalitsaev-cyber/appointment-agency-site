@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The DM Setting Playbook | Kav</title>
+<meta name="description" content="How to take a lead from a cold DM to a booked sales call, in 7 stages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;600&display=swap">
+<style>
+/* One simple reading column. Blue, white and black only. */
+:root {
+  --bg: #ffffff;
+  --ink: #000000;
+  --muted: #4a4f5c;
+  --line: #e2e5ec;
+  --blue: #1f4bff;
+  --blue-soft: #eef2ff;
+  --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #000000; --ink: #ffffff; --muted: #a3a8b5; --line: #23262e; --blue: #5b7fff; --blue-soft: #0b1640; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg); color: var(--ink);
+  font-family: var(--body); font-size: 17px; line-height: 1.6;
+  padding-left: 16px; padding-right: 16px;
+}
+a { color: var(--blue); }
+.wrap { max-width: 680px; margin: 0 auto; padding-block: 32px 72px; display: grid; gap: 48px; }
+.back { font-weight: 600; text-decoration: none; font-size: 0.95rem; }
+.back:hover { text-decoration: underline; }
+h1, h2 { font-family: var(--display); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
+h1 { font-size: clamp(2.4rem, 7vw, 3.6rem); line-height: 1; font-weight: 800; }
+h1 span { color: var(--blue); }
+h2 { font-size: 1.6rem; line-height: 1.15; font-weight: 700; }
+p { margin: 0; }
+header { display: grid; gap: 16px; }
+.kicker { font-weight: 600; color: var(--blue); font-size: 0.9rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.lede { font-size: 1.15rem; color: var(--muted); }
+
+section { display: grid; gap: 14px; padding-top: 32px; border-top: 2px solid var(--ink); }
+.num { font-weight: 600; color: var(--blue); font-size: 0.9rem; }
+.intro { color: var(--muted); }
+ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+li::marker { color: var(--blue); }
+.say { background: var(--blue); color: #fff; border-radius: 12px; padding: 14px 18px; display: grid; gap: 6px; }
+.say small { font-weight: 600; font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; }
+.tip { background: var(--blue-soft); border-radius: 12px; padding: 14px 18px; }
+.tip b { color: var(--blue); }
+
+.sheet { background: var(--ink); color: var(--bg); border-radius: 16px; padding: 28px 24px; display: grid; gap: 14px; border: 0; }
+.sheet h2 { color: var(--bg); }
+.sheet ol { margin: 0; padding-left: 1.6em; display: grid; gap: 6px; }
+.sheet li::marker { color: var(--blue); font-weight: 600; }
+
+.cta { display: grid; gap: 14px; justify-items: start; padding-top: 32px; border-top: 2px solid var(--ink); }
+.btn { display: inline-block; background: var(--blue); color: #fff; text-decoration: none; font-weight: 600; padding: 14px 28px; border-radius: 999px; }
+.btn:hover { opacity: 0.9; }
+footer { color: var(--muted); font-size: 0.9rem; }
+@media (max-width: 480px) { body { font-size: 16px; } .wrap { padding-block: 24px 56px; gap: 40px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back" href="./">&larr; Back to Kav</a>
+
+<header>
+  <p class="kicker">Free guide</p>
+  <h1>The DM Setting <span>Playbook</span></h1>
+  <p class="lede">How to take a fitness lead from a cold DM to a booked sales call, in 7 stages. Follow them in order and don't skip ahead.</p>
+</header>
+
+<section>
+  <span class="num">Stage 1</span>
+  <h2>Outreach: build rapport</h2>
+  <p class="intro">Open on something from their profile, not fitness.</p>
+  <div class="say"><small>Opener</small>"Yo where's this man? Looks sick" or "Fire view bro, where's this?"</div>
+  <div class="say"><small>After they reply</small>"Nice man, you based there?" / "Fire bro, what brought you out there?" / "Damnn been planning on heading out there for a minute actually, you based there?" / "Oh sick, my guys @XXX and @XXX live there, been planning on going to meet them for a minute now"</div>
+  <div class="tip"><b>Rule:</b> keep the rapport going until you can move into fitness talk naturally, then follow the stages below.</div>
+</section>
+
+<section>
+  <span class="num">Stage 2</span>
+  <h2>Pre-qualify</h2>
+  <p class="intro">Pick these up casually while you chat:</p>
+  <ul>
+    <li>Where they're from</li>
+    <li>How old they are</li>
+    <li>What they do for work</li>
+  </ul>
+</section>
+
+<section>
+  <span class="num">Stage 3</span>
+  <h2>Goals and why they matter</h2>
+  <ul>
+    <li>What are you actually looking to achieve with your fitness, man?</li>
+    <li>Why do you want to hit [goal]?</li>
+    <li>What would hitting [goal] do for you?</li>
+    <li>How long have you wanted to hit [goal]?</li>
+    <li>Why now? What's got you motivated?</li>
+  </ul>
+  <div class="tip"><b>Tip:</b> put a number on their goal. If you didn't get their job earlier, relate it back to fitness here. Only ask for a timeframe if they're an outbound lead; inbound leads are usually already high intent.</div>
+</section>
+
+<section>
+  <span class="num">Stage 4</span>
+  <h2>The struggle</h2>
+  <ul>
+    <li>What sort of hurdles are you facing with achieving [goal]?</li>
+    <li>Why do you feel like you haven't lost that weight yet?</li>
+    <li>What's stopping you?</li>
+  </ul>
+  <div class="tip"><b>Never accept time as an excuse.</b> Everyone has time. Ask: "Is it genuinely not having 30 minutes a day, or is there something else there?"</div>
+  <div class="say"><small>If they say nothing's wrong (outbound)</small>"I get you bro, but I know people with that busy a schedule who see results in [their timeframe]. So what's really stopping you?"</div>
+</section>
+
+<section>
+  <span class="num">Stage 5</span>
+  <h2>Timeframe and emotional impact</h2>
+  <ul>
+    <li>What does consistency look like for you? What's stopping you right now?</li>
+    <li>How long have you been struggling with this?</li>
+    <li>[X] years is quite a long time, man. How's that been sitting with you?</li>
+  </ul>
+  <div class="say"><small>Time objection</small>"If all you needed was an extra 30 minutes a day on your health, diet and routine, and you'd genuinely see that [goal] version of yourself, would you do it?"</div>
+</section>
+
+<section>
+  <span class="num">Stage 6</span>
+  <h2>Future pace</h2>
+  <p class="intro">Use Heaven if they've shared a lot of pain. Use Hell if they haven't.</p>
+  <div class="say"><small>Heaven</small>"If you do fix [struggle] and get to [goal], what sort of impact do you see that having on your day-to-day life, man?"</div>
+  <div class="say"><small>Hell</small>"If you continue to be [struggle] for the next [how long they've struggled], what sort of impact do you see it having?"</div>
+  <div class="tip"><b>Skip this stage</b> if they're already a good prospect.</div>
+</section>
+
+<section>
+  <span class="num">Stage 7</span>
+  <h2>Pitch the call</h2>
+  <div class="say"><small>Offer</small>"Well listen, if you'd be open to it, I know I can help with [their pain + goal]."</div>
+  <div class="say"><small>Investment check</small>"Obviously a personalised plan does require an investment to get started, so just to get a rough idea, are you in a place where that would feel comfortable for you?"</div>
+  <div class="tip"><b>Then ask for the call.</b> If money comes up and their job is good: "What do you think is genuinely more expensive, investing in yourself or living another [X years] feeling [struggle]?"</div>
+</section>
+
+<section class="sheet">
+  <h2>Quick checklist</h2>
+  <ol>
+    <li>Goal</li>
+    <li>What would hitting it do for you?</li>
+    <li>How long have you wanted it?</li>
+    <li>Why is it important now?</li>
+    <li>Hurdles or struggles</li>
+    <li>How long?</li>
+    <li>How's that been sitting with you?</li>
+    <li>Heaven or Hell (skip for good prospects)</li>
+    <li>"I know I can help with…"</li>
+    <li>Investment check</li>
+    <li>Call request</li>
+  </ol>
+</section>
+
+<div class="cta">
+  <h2>Want help putting this into practice?</h2>
+  <a class="btn" href="https://calendly.com/kmalitsaev/kav?month=2026-11&date=2026-11-06" target="_blank" rel="noopener">Book a call</a>
+</div>
+
+<footer>Swap every [bracket] for the lead's own words.</footer>
+
+</div>
+</body>
+</html>
