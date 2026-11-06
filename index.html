@@ -118,12 +118,6 @@
     .guide .link { margin-top: 18px; font-weight: 600; color: var(--accent); font-size: .95rem; }
 
     /* Signup */
-    .signup-box {
-      max-width: 720px; margin: 0 auto; background: var(--bg);
-      border: 1px solid var(--border); border-radius: var(--radius); padding: 12px;
-    }
-    .signup-box iframe { width: 100%; height: 620px; border: 0; display: block; }
-    .signup-fallback { text-align: center; margin-top: 16px; color: var(--muted); font-size: .93rem; }
 
     /* CTA */
     .cta { text-align: center; background: var(--text); color: #fff; }
@@ -153,7 +147,7 @@
         <div class="nav-links">
           <a href="#services">What you'll learn</a>
           <a href="#free">Free Content</a>
-          <a href="#signup">Newsletter</a>
+          <a href="#guide">Free guide</a>
           <a href="https://calendly.com/kmalitsaev/kav?month=2026-11&date=2026-11-06" target="_blank" rel="noopener" class="btn btn-small">Book a call</a>
         </div>
       </nav>
@@ -229,30 +223,16 @@
     </div>
   </section>
 
-  <!-- ============ EMAIL SIGNUP ============ -->
-  <section id="signup" class="alt">
-    <div class="container">
-      <div class="section-head">
-        <h2>Get new guides in your inbox</h2>
-        <p>Sign up and I'll send you new lessons, scripts and guides as soon as they drop.</p>
-      </div>
-      <!--
-        EDIT FORM: In Google Forms click Send > the < > (embed) tab > copy the src="..." URL
-        and paste it below in place of YOUR_FORM_ID link. Also update the fallback link.
-      -->
-      <div class="signup-box">
-        <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?embedded=true" title="Email signup form" loading="lazy">Loading…</iframe>
-      </div>
-      <p class="signup-fallback">Form not loading? <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" target="_blank" rel="noopener">Open it in a new tab</a>.</p>
-    </div>
-  </section>
-
   <!-- ============ FREE GUIDE ============ -->
   <!--
     GUIDE: links to playbook.html in this repo. Edit that file to change the guide.
   -->
-  <section id="guide">
+  <section id="guide" class="alt">
     <div class="container">
+      <div class="section-head">
+        <h2>Grab the free playbook</h2>
+        <p>My step-by-step DM script for turning a cold message into a booked call.</p>
+      </div>
       <a class="card guide guide-single" href="playbook.html">
         <div>
           <div class="tag">Free guide</div>
